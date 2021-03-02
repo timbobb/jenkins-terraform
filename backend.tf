@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "jjtech-ci-cd-terraform"
+    bucket = "cicd-jenkins-6288"
     key    = "state/jjtech.tfstate"
     region = "us-east-1"
     profile = "default"
